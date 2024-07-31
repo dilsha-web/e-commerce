@@ -13,10 +13,10 @@ export default function Navbar() {
       </div>
       <div className="nav-menu">
         <ul>
-          <li onClick={()=>{setMenu("shop")}}><Link to='/' style={{textDecoration: 'none', color: 'white'}}>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-          <li onClick={()=>{setMenu("mens")}}><Link to='/mens' style={{textDecoration: 'none', color: 'white'}}>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
-          <li onClick={()=>{setMenu("women")}}><Link to='/women' style={{textDecoration: 'none', color: 'white'}}>Women</Link>{menu==="women"?<hr/>:<></>}</li>
-          <li onClick={()=>{setMenu("kids")}}><Link to='/kids' style={{textDecoration: 'none',color: 'white'}}>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
+          <li  onClick={()=>{setMenu("shop")}}><Link to='/' style={{textDecoration: 'none', color: 'white'}}>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
+          <li  onClick={()=>{setMenu("mens")}}><Link to='/mens' style={{textDecoration: 'none', color: 'white'}}>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
+          <li  onClick={()=>{setMenu("women")}}><Link to='/women' style={{textDecoration: 'none', color: 'white'}}>Women</Link>{menu==="women"?<hr/>:<></>}</li>
+          <li  onClick={()=>{setMenu("kids")}}><Link to='/kids' style={{textDecoration: 'none',color: 'white'}}>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
          <Link to='/login'><button>Login</button></Link> 

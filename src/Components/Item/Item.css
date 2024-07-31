@@ -4,15 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .item img{
     height: 200px;
     padding: 8px;
-    background-color: aqua; 
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
 }
 
 .item p{
-    margin:  6px 0px;
+    margin:  10px 0;
 }
 
 .item-prices{

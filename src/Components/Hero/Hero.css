@@ -1,6 +1,7 @@
 
 .hero {
-    width: 100%;
+    max-width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     background-color: #619ac5;
@@ -49,5 +50,9 @@
   flex-direction: row;
   justify-content: center;
   margin-left: 250px;
-  
+ 
+}
+
+.hero-right img{
+  margin-top: 40px;
 }
